@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Slab:wght@200;600&family=Roboto:wght@100;300&display=swap');
+* {
+  box-sizing: border-box;
+
+
+}
+
+body {
+  /* background-color: rgb(161, 100, 223); */
+  background-image: url(https://w0.peakpx.com/wallpaper/117/349/HD-wallpaper-music-neon-icon-violet-background-neon-symbols-music-creative-neon-icons-music-sign-music-signs-music-icon-music-icons.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* height: 100vh; */
+  /* overflow: hidden; */
+  margin: 0;
+}
+.box{
+  height: 200px;
+  width: 600px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.box >p{
+  font-size: 35px;
+  font-family: 'Bangers', system-ui;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  color:white;
+  filter: drop-shadow(4px 5px 0px rgba(15, 15, 15, 0.785));
+  
+}
+
+.btn {
+  background-color: rgb(113, 7, 126);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  font-weight: 500;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
+@media (max-width:768px){
+  body{
+    height: auto;
+
+  }
+  ::-webkit-scrollbarY{
+    width: 5px;
+  }
+  
+}
